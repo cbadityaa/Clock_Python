@@ -11,7 +11,7 @@ def time():
 
     label.after(1000, time)
 
-label=Label(root,font=("ds-digital",50), background="black",foreground="white")
+label=Label(root,font=("ds-digital",50), background="black",foreground="grey")
 label.pack(anchor="center")
 time()
 
